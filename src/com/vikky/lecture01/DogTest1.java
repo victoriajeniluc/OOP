@@ -44,11 +44,11 @@ public class DogTest1 {
 
         Dog [] array = {dog2, dog3, dog4};
 
-        for(int i = 0; i < array.length; i++) {
-            System.out.println(array[i].name + " : " + array[i].breed + " : " + array[i].color + " : " + array[i].age);
-            array[i].bark();
-            array[i].wagTail();
-            array[i].eat();
+        for(Dog x : array) {
+            System.out.println(x.name + " : " + x.breed + " : " + x.color + " : " + x.age);
+            x.bark();
+            x.wagTail();
+            x.eat();
         }
 
     }
