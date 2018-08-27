@@ -13,7 +13,7 @@ public class DogTest2 {
          Dog d1 = new Dog();
 
          // TEST 1: if all the properties were commented out like this .... like d1.name, d1.breed..etc... it will still print out whatever is in the constructor and then it will assign the default values to the data types and still print out hte statement on line 21
-       d1.name = "Bubbly";
+        d1.name = "Bubbly";
         d1.breed = "Poodle";
         d1.color = "White";
         d1.age = 10;
