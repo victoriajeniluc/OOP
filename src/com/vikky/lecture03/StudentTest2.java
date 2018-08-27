@@ -1,6 +1,8 @@
-package com.vikky.lecture02;
+package com.vikky.lecture03;
 
-public class StudentTest1 {
+import com.vikky.lecture02.Student;
+
+public class StudentTest2 {
     public static void main(String[] args) {
         Student s1 = new Student("Vikky", 'F', 25, 2016, "DBA");
 

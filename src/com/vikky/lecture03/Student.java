@@ -1,14 +1,15 @@
-package com.vikky.lecture02;
+package com.vikky.lecture03;
 public class Student {
     public String name;
     public int age;
-    public String university;
+    // instead of the default constructor.. do this.. it still prints the same output with the university given as a parameter, as the default constructor with the assigned value of Standford University
+    // this is assigning the value to the declaration of the property
+    public String university = "Standford University";
     public String course;
     public int year;
     public char gender;
 
     public Student(String studentName, char studentGender, int studentAge, int studentYear, String studentCourse) {
-        this(); // needs to be on the first statement of the constructor if you're trying to call it
        name = studentName;
        gender = studentGender;
        age = studentAge;
@@ -16,11 +17,6 @@ public class Student {
        course = studentCourse;
     }
 
-    // if all the students are from Standford.. you can just default it this way:
-    public Student() {
-        university = "Standford University";
-    }
-    // the only problem with using default constructors is that if there is a object initialized ... and there are no values passed... they will create an object with default values except for the university... BETTER SOLUTION IN LECTURE03/STUDENT
 
     public void attendLecture(){
         System.out.println(name + " is attending their first lecture at the age of " + age);
