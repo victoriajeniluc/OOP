@@ -41,6 +41,7 @@ public class DogTest2 {
       // Since d2 doesn't have anything specific... it will default to whatever is in the constructor
 
      // Test 5: Creating a constructor to accept other arguments
+     // at the time of passing values(rusty, 3, husky..etc) they are known as arguments
      Dog d3 = new Dog("Rusty", "Husky", 3, "black");
         System.out.println(d3.name + ": " + d3.breed + " : " + d3.color + " : " + d3.age);
         d3.wagTail();

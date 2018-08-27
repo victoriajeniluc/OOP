@@ -19,7 +19,8 @@ public class Dog {
         age = 5;
     }
 
-    // Creating a constructor that will accept different arguments
+    // Creating a constructor that will accept parameters
+    // dogName, dogBreed, dogColor...etc are parameters
     public Dog(String dogName, String dogBreed, int dogAge, String dogColor) {
         name = dogName;
         breed = dogBreed;
