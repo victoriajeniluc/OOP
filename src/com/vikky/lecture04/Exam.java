@@ -28,7 +28,7 @@ public class Exam {
     }
 
     // TODO: Write a method which accepts 3 int parameters and return their sum
-    public int calculateTotal(int num1, int num2, int num3) {
+   static public int calculateTotal(int num1, int num2, int num3) {
         int total = num1 + num2 + num3;
         return total;
     }
