@@ -16,7 +16,7 @@
  * // STEP OVER - the printMsg method goes off the stack and the variable str dies... the main method is on top of the stack. args and msg are acccessible again.    // ** NOTICE: there are curly braces in between the int i = 100; and the System.out.println(i); but this is valid to be used when you want to shorten the scope of the variable i
  * .
  * // STEP OVER - variable i comes into existence and it will be alive until the block has executed within its scope. The scope is after the declaration statement and it ends before the closing bracket. args, msg, and i are accessible.
- * 
+ *
  * // STEP OVER - variable args and msg are accessible and i disappears - at the // main ends comment.
  *
  */
