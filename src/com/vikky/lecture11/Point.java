@@ -1,5 +1,5 @@
 /**
- * how to create a constructor by using the generator on IntelliJ with command + n 
+ * how to create a constructor by using the generator on IntelliJ with command + n
  *
  * @author Udayan Khattry
  */
