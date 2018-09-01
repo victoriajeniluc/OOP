@@ -32,6 +32,7 @@ public class TestStudent {
         }
         s3.setAge(20);
 
+        // just testing out setters and getters when changing all the properties with an access modifier with privates.
         s3.setId(3);
         s3.getId();
         s3.setName("Marson");
