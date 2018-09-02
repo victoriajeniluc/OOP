@@ -17,7 +17,9 @@ public class Student {
     }
 
     // if all the students are from Standford.. you can just default it this way:
-    public Student() {
+
+    // Changing this accessor since we won't be using this other than to read the university within this file. SINCE WE DID THAT WE CANT USE THE DEFAULT CONSTRUCTOR TO CREATE OBJECTS -- this gets comment out in StudentTest
+    private Student() {
         university = "Standford University";
     }
     // the only problem with using default constructors is that if there is a object initialized ... and there are no values passed... they will create an object with default values except for the university... BETTER SOLUTION IN LECTURE03/STUDENT

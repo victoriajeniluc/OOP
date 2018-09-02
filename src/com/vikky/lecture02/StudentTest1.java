@@ -2,6 +2,9 @@ package com.vikky.lecture02;
 
 public class StudentTest1 {
     public static void main(String[] args) {
+        // unable to do this anymore since we change the default constructor to private
+
+        // Student s = new Student();
         Student s1 = new Student("Vikky", 'F', 25, 2016, "DBA");
 
         Student s2 = new Student("John", 'M', 18, 2016, "Java");

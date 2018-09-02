@@ -37,7 +37,8 @@ public class Student {
     }
 
     // write a method that will be able to be resused for the setAge and the constructor
-    public void checkAndChangeAge(int age) {
+    // this is method is only getting accessed within this file for the constructor and set Age method... it is not needed to be accessed in other packages.. so it would be smart to change it to a private access than a public one
+    private void checkAndChangeAge(int age) {
         //Allowed age is between 18 and 40
         if(age >= 18 && age <= 40) {
             this.age = age;
