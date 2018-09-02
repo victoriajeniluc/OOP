@@ -25,7 +25,7 @@ public class B extends A {
 
     @Override // only works when the method name is the same in the super class ... otherwise there will be an error
             // only issue is that we won't be able to set the value for the method setValue that was inherited from class A
-    public void setValue(int value) { //public setterawkwardmomentbetweenaandb
+    public void setValue(int value) { //public setter
         System.out.println("hello");
         super.setValue(value); // this will help enhance the abilities of setValue
     }
