@@ -21,5 +21,9 @@ public class TestA_B {
         B b = new B(); //Create an instance of B class
         b.setValue(77); //Invoke the inherited method of B's instance
         System.out.println("b.getValue() = " + b.getValue()); //Invoke the inherited method of B's instance
+
+        // be able to access the properties for B ... unable to access from A
+        b.setName("Hello there mate");
+        System.out.println("b.getName() = " + b.getName());
     }
 }
