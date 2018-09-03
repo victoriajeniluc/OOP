@@ -2,6 +2,9 @@ package com.vikky.lecture29;
 /**
  * Animal is an abstract class with two abstract methods eat() and sleep().
  *
+ *
+ * SELLABLE AND RIDABLE ARE INTERFANCES
+ * RABBIT, HORSE, CAMEL, AND JAGUAR ARE CONCRETE CLASSES
  * @author Udayan Khattry
  */
 
